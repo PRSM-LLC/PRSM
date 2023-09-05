@@ -1,5 +1,7 @@
+"use-client";
 import { Providers } from "./providers";
 import "@/styles/globals.css";
+import theme from "@/styles/theme";
 
 export const metadata = {
   title: "Create Next App",
