@@ -5,13 +5,13 @@ import { bgGradient } from "@chakra-ui/react";
 
 const theme = extendTheme({
   colors: {
-    primary: "#2c3e89",
+    primary: "#139BDF",
     secondary: "#41a2b9",
     bgGradient: "linear(to-l, #7928CA, #FF0080)",
-    bgColor: "#41308b",
+    bgColor: "#FFFFFF",
     primaryButton: {
       500: "#779bc1",
-      600: "#1469F0",
+      600: "#139BDF",
     },
     secondaryButton: {
       500: "#333333",
@@ -20,8 +20,8 @@ const theme = extendTheme({
     footerBg: "#0D132F",
     inputBg: "#0A0F24",
     buttonBg: {
-      500: "#4559E9",
-      600: "#3244CA",
+      500: "#139BDF",
+      600: "#139BDF",
     },
     joinTeamBtn: {
       500: "#4A7EAE",
@@ -43,13 +43,13 @@ const theme = extendTheme({
     Button: {
       defaultProps: {
         variant: "outline",
-        colorScheme: "blue",
+        colorScheme: "#139BDF",
         fontWeight: "light",
       },
       variants: {
         outline: {
           _hover: {
-            bg: "blue.500 !important",
+            bg: "#139BDF !important",
             color: "whiteAlpha.900",
             borderColor: "transparent",
           },
